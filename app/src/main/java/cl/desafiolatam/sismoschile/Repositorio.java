@@ -11,6 +11,12 @@ import retrofit2.Response;
 
 public class Repositorio {
     private PresenteRepositorio presenteRepositorio;
+
+    public void setPresenteRepositorio(PresenteRepositorio presenteRepositorio) {
+        this.presenteRepositorio = presenteRepositorio;
+    }
+
+
     private static final String TAG = "Repositorio";
 
     public void loadInfo () {

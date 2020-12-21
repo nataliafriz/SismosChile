@@ -9,6 +9,8 @@ public class Presente implements PresenteRepositorio {
     public Presente(PresenteVista vista, Repositorio repositorio) {
         this.vista = vista;
         this.repositorio = repositorio;
+        repositorio.setPresenteRepositorio(this);
+        repositorio.loadInfo();
     }
 
     @Override

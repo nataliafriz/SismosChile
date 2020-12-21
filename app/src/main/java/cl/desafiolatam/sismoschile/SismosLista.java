@@ -1,101 +1,102 @@
 package cl.desafiolatam.sismoschile;
 
 public class SismosLista {
-    private String fecha;
-    private String latitud;
-    private String longitud;
-    private String profundidad;
-    private String magnitud;
-    private String agencia;
-    private String refGeografica;
-    private String fechaUpdate;
+
+    private String Fecha;
+    private String Latitud;
+    private String Longitud;
+    private String Profundidad;
+    private String Magnitud;
+    private String Agencia;
+    private String RefGeografica;
+    private String FechaUpdate;
 
     public SismosLista(String fecha, String latitud, String longitud, String profundidad, String magnitud, String agencia, String refGeografica, String fechaUpdate) {
-        this.fecha = fecha;
-        this.latitud = latitud;
-        this.longitud = longitud;
-        this.profundidad = profundidad;
-        this.magnitud = magnitud;
-        this.agencia = agencia;
-        this.refGeografica = refGeografica;
-        this.fechaUpdate = fechaUpdate;
+        Fecha = fecha;
+        Latitud = latitud;
+        Longitud = longitud;
+        Profundidad = profundidad;
+        Magnitud = magnitud;
+        Agencia = agencia;
+        RefGeografica = refGeografica;
+        FechaUpdate = fechaUpdate;
     }
 
     public String getFecha() {
-        return fecha;
+        return Fecha;
     }
 
     public void setFecha(String fecha) {
-        this.fecha = fecha;
+        Fecha = fecha;
     }
 
     public String getLatitud() {
-        return latitud;
+        return Latitud;
     }
 
     public void setLatitud(String latitud) {
-        this.latitud = latitud;
+        Latitud = latitud;
     }
 
     public String getLongitud() {
-        return longitud;
+        return Longitud;
     }
 
     public void setLongitud(String longitud) {
-        this.longitud = longitud;
+        Longitud = longitud;
     }
 
     public String getProfundidad() {
-        return profundidad;
+        return Profundidad;
     }
 
     public void setProfundidad(String profundidad) {
-        this.profundidad = profundidad;
+        Profundidad = profundidad;
     }
 
     public String getMagnitud() {
-        return magnitud;
+        return Magnitud;
     }
 
     public void setMagnitud(String magnitud) {
-        this.magnitud = magnitud;
+        Magnitud = magnitud;
     }
 
     public String getAgencia() {
-        return agencia;
+        return Agencia;
     }
 
     public void setAgencia(String agencia) {
-        this.agencia = agencia;
+        Agencia = agencia;
     }
 
     public String getRefGeografica() {
-        return refGeografica;
+        return RefGeografica;
     }
 
     public void setRefGeografica(String refGeografica) {
-        this.refGeografica = refGeografica;
+        RefGeografica = refGeografica;
     }
 
     public String getFechaUpdate() {
-        return fechaUpdate;
+        return FechaUpdate;
     }
 
     public void setFechaUpdate(String fechaUpdate) {
-        this.fechaUpdate = fechaUpdate;
+        FechaUpdate = fechaUpdate;
     }
 
     @Override
     public String toString() {
         return "SismosLista{" +
-                "fecha='" + fecha + '\'' +
-                ", latitud='" + latitud + '\'' +
-                ", longitud='" + longitud + '\'' +
-                ", profundidad='" + profundidad + '\'' +
-                ", magnitud='" + magnitud + '\'' +
-                ", agencia='" + agencia + '\'' +
-                ", refGeografica='" + refGeografica + '\'' +
-                ", fechaUpdate='" + fechaUpdate + '\'' +
+                "Fecha='" + Fecha + '\'' +
+                ", Latitud='" + Latitud + '\'' +
+                ", Longitud='" + Longitud + '\'' +
+                ", Profundidad='" + Profundidad + '\'' +
+                ", Magnitud='" + Magnitud + '\'' +
+                ", Agencia='" + Agencia + '\'' +
+                ", RefGeografica='" + RefGeografica + '\'' +
+                ", FechaUpdate='" + FechaUpdate + '\'' +
                 '}';
     }
 }
